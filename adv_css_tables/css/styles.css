@@ -1,0 +1,159 @@
+body {
+    background-color: #3258A6;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    color: #BB222D;
+    text-align: center;
+}
+
+#container {
+    background-color: #468ACC;
+    width: 80%;
+    margin: auto;
+    border: 4px solid;
+}
+
+nav {
+    background-color: #85C8F2;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #EEF1EF;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #BB222D;
+    text-decoration: none;
+    border: 4px solid #F2AE2E;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+nav li a:hover {
+    background-color: #85C8F2;
+    color: #468ACC;
+      border: 4px solid #EEF1EF;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    border: 4px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #85C8F2;
+}
+
+section {
+    width: 70%;
+}
+
+table img {
+    width: 425px;
+    height: 150px;
+}
+
+aside {
+    width: 30%;
+}
+
+aside img {
+    margin: 4px auto;
+    width: 200px;
+    height: 100px;
+    border: black;
+    border-radius: 20px;
+
+}
+
+.single_page{
+    width: 100%;
+}
+
+#main_img_resize {
+    height: 20%;
+}
+
+#lower_area {
+    display: flex;
+}
+
+.col {
+    border: 4px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #85C8F2;
+}
+
+.col img {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #85C8F2;
+    text-align: center;
+    padding: 40px 0;
+    color: #BB222D;
+    font-weight: bolder;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color: #EEF1EF;
+    color: #BB222D;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #F2AE2E;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #85C8F2;
+    color: #468ACC;
+    border: #EEF1EF;
+}
+
+table {
+    border: 4px solid #F2AE2E;
+    border-radius: 20px;
+    background-color: #EEF1EF;
+}
+
+td,
+tr {
+    border: 2px solid #BB222D;
+    border-radius: 20px;
+}
